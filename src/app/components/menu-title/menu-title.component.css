@@ -1,0 +1,16 @@
+.container__menu-title {
+  color: white;
+}
+
+.menu-title__title {
+  font-size: 7.5rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+}
+
+.container__menu-title > div {
+  border-top: white 2px solid;
+  border-bottom: white 2px solid;
+  margin: 15px 0;
+}

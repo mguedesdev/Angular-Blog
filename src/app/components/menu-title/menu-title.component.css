@@ -4,11 +4,17 @@
   justify-content: center;
 }
 
-.menu-title__title {
-  font-size: 7.5rem;
-  font-weight: 800;
+.container__menu-title > div {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.menu-title__title {
+  font-size: 230px;
+  font-weight: 800;
+  line-height: 200px;
+  height: 220px;
 }
 
 .container__menu-title > div {

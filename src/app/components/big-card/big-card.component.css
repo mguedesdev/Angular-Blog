@@ -1,20 +1,17 @@
 .container__big-card {
-  width: 500px;
+  width: 900px;
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
-  margin: 0 30px;
-  overflow: hidden;
 }
 
 .big-card__picture {
   overflow: hidden;
-  height: 300px;
+  height: 450px;
 }
 
 .big-card__picture > img {
   width: 100%;
-  min-width: 500px;
+  min-width: 900px;
   object-fit: cover;
   transition: transform 0.4s ease-in-out;
   height: 100%;
@@ -25,17 +22,13 @@
 }
 
 .big-card__title > h1 {
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 15px;
   line-height: 29px;
-  transition: color 0.4s ease-in-out;
-
 }
-
 
 .big-card__description > p {
   font-size: 15px;
-  margin: 15px 0;
-  line-height: 20px;
+  margin: 20px 0;
   color: gray;
 }

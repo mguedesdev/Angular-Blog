@@ -1,5 +1,7 @@
 .container__menu-title {
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .menu-title__title {
@@ -10,7 +12,8 @@
 }
 
 .container__menu-title > div {
-  border-top: white 2px solid;
-  border-bottom: white 2px solid;
-  margin: 15px 0;
+  border-top: gray 0.5px solid;
+  border-bottom: gray 0.5px solid;
+  margin: 20px 0;
+  width: 90%;
 }

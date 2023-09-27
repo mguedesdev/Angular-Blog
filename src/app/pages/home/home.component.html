@@ -6,7 +6,15 @@
 
   <div class="container__articles">
     <div class="articles__main">
-      <app-big-card></app-big-card>
+      <div *ngFor="let news of newsList">
+        <app-big-card
+          [cardDescription]="news.description"
+          [cardPicture]="news.picture"
+          [cardTitle]="news.title"
+          [cardDate]="news.date"
+          [cardAuthor]="news.author"
+        ></app-big-card>
+      </div>
     </div>
     <div class="articles__others">
       <app-small-card></app-small-card>

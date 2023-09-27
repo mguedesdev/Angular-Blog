@@ -1,10 +1,23 @@
-import { Component } from '@angular/core';
+import { DataService } from 'src/app/services/data.service';
+import { Component, OnInit } from '@angular/core';
+import { NewsItem } from 'src/app/interfaces/news.interface';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
 
+  newsList: NewsItem[] = [];
+
+  constructor(private dataService: DataService) { }
+
+  ngOnInit(): void {
+    this.dataService.getData().subscribe((response) => {
+      console.log(response);
+
+      this.newsList = response.news;
+    });
+  }
 }

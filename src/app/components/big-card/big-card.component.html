@@ -1,13 +1,21 @@
 <div class="container__big-card">
   <div class="big-card__picture">
-    <img src="assets/placeholder.webp" alt="">
-  </div>
-  <div class="big-card__title">
-     <h1>
-      <a href="">Saiu a nova versão do angular</a>
-    </h1>
+    <img *ngIf="cardPicture" [src]="cardPicture" alt="">
+    <img *ngIf="!cardPicture" src="assets/placeholder.webp" alt="">
+    <div class="big-card__title-img">
+     <h1>{{cardTitle}}</h1>
+    </div>
   </div>
   <div class="big-card__description">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ipsum fLorem ipsum dolor s dolor sit amet consectetur adipisicing elit. Molestias ipsum fLorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ipsum facilis, deleacilis, deleLorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ipsum facilis, dele</p>
+    <p>{{cardDescription}}</p>
   </div>
+  <div class="big-card__footer">
+    <span>Por {{cardAuthor}} - {{cardDate}}</span>
+
+    <button>Leia Mais</button>
+  </div>
+  <hr>
+  <br>
+
 </div>
+

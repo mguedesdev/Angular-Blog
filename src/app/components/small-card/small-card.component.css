@@ -1,5 +1,4 @@
 .container__small-card {
-  width: 600px;
   align-items: center;
 }
 
@@ -15,7 +14,7 @@
 
 .small-card__title {
   padding: 10px;
-  width: 100%;
+  width: 60%;
 }
 
 .small-card__picture {
@@ -26,7 +25,6 @@
 
 .small-card__picture > img {
   width: 100%;
-  min-width: 300px;
   object-fit: cover;
   transition: transform 0.4s ease-in-out;
   height: 100%;

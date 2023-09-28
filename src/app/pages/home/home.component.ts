@@ -10,6 +10,7 @@ import { NewsItem } from 'src/app/interfaces/news.interface';
 export class HomeComponent implements OnInit {
 
   newsList: NewsItem[] = [];
+  filteredList: NewsItem[] = [];
 
   constructor(private dataService: DataService) { }
 
@@ -18,6 +19,13 @@ export class HomeComponent implements OnInit {
       console.log(response);
 
       this.newsList = response.news;
+      this.sortByApprovalDesc();
     });
   }
+
+  sortByApprovalDesc() {
+    this.filteredList = [...this.newsList].sort((a, b) => b.approval - a.approval);
+  }
+
+
 }

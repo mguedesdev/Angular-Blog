@@ -6,6 +6,8 @@ export interface NewsItem {
   description: string;
   picture: string;
   video: string;
+  approval: number;
+
 }
 
 export interface NewsResponse {

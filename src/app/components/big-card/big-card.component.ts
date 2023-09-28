@@ -1,6 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { DataService } from 'src/app/services/data.service';
-import { NewsResponse } from 'src/app/interfaces/news.interface';
+import { Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-big-card',

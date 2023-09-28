@@ -16,10 +16,12 @@
         ></app-big-card>
       </div>
     </div>
-    <div class="articles__others">
-      <app-small-card></app-small-card>
-      <app-small-card></app-small-card>
-      <app-small-card></app-small-card>
+    <div class="articles__others" >
+      <h1>POPULARES</h1>
+      <app-small-card *ngFor="let news of filteredList"
+       [cardPicture]="news.picture"
+       [cardTitle]="news.title"
+      ></app-small-card>
     </div>
 
   </div>

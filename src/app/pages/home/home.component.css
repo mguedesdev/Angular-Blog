@@ -16,6 +16,16 @@
   flex-direction: column;
 }
 
+.articles__others > h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 5px 0;
+  margin-bottom: 15px;
+  border-top: white 1px solid;
+  border-bottom: white 1px solid;
+}
+
 .content {
   max-width: 1280px;
   width: 100%;

@@ -42,8 +42,37 @@
       "video": "https://www.youtube.com/watch?v=GmIoZDT8gtM",
       "approval": 7.5
 
+    },
+    {
+      "id": 5,
+      "author": "Your Name",
+      "date": "23/09/2023",
+      "title": "Ubisoft anuncia nova expansão para Assassin's Creed Valhalla",
+      "description": "Após o sucesso esmagador de Assassin's Creed Valhalla, a Ubisoft anunciou uma nova expansão que promete levar os jogadores a terras ainda não exploradas. A expansão, chamada 'Land of the Forgotten', mergulha nas lendas e mitos de civilizações perdidas. Mais detalhes serão revelados na próxima conferência da Ubisoft.",
+      "picture": "https://meups.com.br/wp-content/uploads/2021/12/Dawn-of-Ragnarok-expansao-de-Assassins-Creed-Valhalla.jpg",
+      "video": "https://www.youtube.com/watch?v=example_link",
+      "approval": 8.8
+    },
+    {
+      "id": 6,
+      "author": "Your Name",
+      "date": "22/09/2023",
+      "title": "Riot Games planeja nova atualização para o League of Legends, focando em balanceamento",
+      "description": "A Riot Games tem planos para lançar uma atualização massiva focada em balanceamento para o popular MOBA, League of Legends. Com os mundiais se aproximando, esta atualização pretende nivelar o campo de jogo e proporcionar partidas mais competitivas.",
+      "picture": "https://midiatico.portalpopmais.com.br/wp-content/uploads/2021/04/league-of-legends.png",
+      "video": "https://www.youtube.com/watch?v=example_link",
+      "approval": 8.0
+    },
+    {
+      "id": 7,
+      "author": "Your Name",
+      "date": "21/09/2023",
+      "title": "Cyberpunk 2077 receberá DLC gratuito com novos enredos e personagens",
+      "description": "A CD Projekt Red anunciou que estará lançando um DLC gratuito para Cyberpunk 2077 no próximo mês. Este DLC apresentará novos enredos, personagens e missões secundárias, dando aos jogadores ainda mais conteúdo para explorar na cidade futurista de Night City.",
+      "picture": "https://flowgames.gg/wp-content/uploads/2023/06/EGS_Cyberpunk2077PhantomLiberty_CDPROJEKTRED_DLC_S1_2560x1440-15e79640f240b1652ad72c0ff72b2b17.jpg",
+      "video": "https://www.youtube.com/watch?v=example_link",
+      "approval": 9.2
     }
-
   ]
-
 }
+

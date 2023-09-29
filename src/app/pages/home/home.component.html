@@ -6,7 +6,7 @@
 
   <div class="container__articles">
     <div class="articles__main">
-      <div *ngFor="let news of newsList">
+      <div *ngFor="let news of displayedNews">
         <app-big-card
           [cardDescription]="news.description"
           [cardPicture]="news.picture"
@@ -15,10 +15,13 @@
           [cardAuthor]="news.author"
         ></app-big-card>
       </div>
+
+      <div *ngIf="isLoading" class="spinner">Carregando mais...</div>
     </div>
+
     <div class="articles__others" >
       <h1>POPULARES</h1>
-      <app-small-card *ngFor="let news of filteredList"
+      <app-small-card *ngFor="let news of filteredApprovalList"
        [cardPicture]="news.picture"
        [cardTitle]="news.title"
        [cardDate]="news.date"

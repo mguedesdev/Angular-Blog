@@ -1,0 +1,9 @@
+.container__footer {
+  padding: 20px;
+  background-color: rgb(8, 8, 8);
+  text-align: center;
+}
+
+.container__footer > p {
+  background-color: transparent;
+}

@@ -1,7 +1,6 @@
 import { DataService } from 'src/app/services/data.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { NewsItem } from 'src/app/interfaces/news.interface';
-import { HostListener } from '@angular/core';
 
 
 @Component({

@@ -21,6 +21,9 @@
       <app-small-card *ngFor="let news of filteredList"
        [cardPicture]="news.picture"
        [cardTitle]="news.title"
+       [cardDate]="news.date"
+       [cardApproval]="news.approval"
+
       ></app-small-card>
     </div>
 

@@ -22,8 +22,8 @@
   text-align: center;
   padding: 5px 0;
   margin-bottom: 15px;
-  border-top: white 1px solid;
-  border-bottom: white 1px solid;
+  border-top: var(--color-light) 1px solid;
+  border-bottom: var(--color-light) 1px solid;
 }
 
 .content {

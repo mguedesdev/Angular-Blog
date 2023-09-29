@@ -9,4 +9,5 @@ export class SmallCardComponent {
   @Input() cardPicture:string = ''
   @Input() cardTitle:string = ''
   @Input() cardDate:string = ''
+  @Input() cardApproval:number = 0
 }

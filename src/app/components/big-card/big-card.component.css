@@ -29,13 +29,13 @@
 .big-card__description > p {
   font-size: 15px;
   margin: 10px 0;
-  color: gray;
+  color: var(--color-gray);
   text-align: justify;
 }
 
 .big-card__footer > span {
   font-size: 14px;
-  color: gray;
+  color: var(--color-gray);
 
 }
 
@@ -48,8 +48,8 @@
 
 .big-card__footer > button {
   background-color: #111111;
-  border: white 1px solid;
-  color: white;
+  border: var(--color-light) 1px solid;
+  color: var(--color-light);
   padding: 5px 10px;
   font-size: 14px;
   cursor: pointer;
@@ -57,13 +57,13 @@
 }
 
 .big-card__footer > button:hover {
-  background-color: #e6e6e6;
-  color: #111111;
+  background-color: var(--color-light);
+  color: var(--color-dark);
 }
 
 .big-card__title-img {
-  background-color: black;
-  color: white;
+  background-color: var(--color-dark);
+  color: var(--color-light);
   opacity: 0.8;
   height: 70px;
   z-index: 1;

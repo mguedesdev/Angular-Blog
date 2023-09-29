@@ -7,3 +7,9 @@
   color: white;
   text-decoration: none;
 }
+
+:root {
+  --color-dark: #111111;
+  --color-light: #e6e6e6;
+  --color-gray: #929292;
+}

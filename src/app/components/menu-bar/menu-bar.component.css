@@ -19,17 +19,17 @@
 
 .menu-bar__menu a {
   text-decoration: none;
-  color: #a4a4a4;
+  color: var(--color-gray);
   font-weight: bold;
 
 }
 
 .menu-bar__menu a:hover {
-  color: #dcdcdc;
+  color: var(--color-light);
   transition: 0.3s;
 }
 
 .menu-bar__menu ul li:nth-child(1) a {
-  color: white;
+  color: var(--color-light);
   font-weight: 800;
 }

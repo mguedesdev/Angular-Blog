@@ -1,8 +1,8 @@
 
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { NewsResponse } from '../interfaces/news.interface';
+import { Observable, map } from 'rxjs';
+import { NewsItem, NewsResponse } from '../interfaces/news.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -16,4 +16,11 @@ export class DataService {
   getData(): Observable<NewsResponse> {
     return this.http.get<NewsResponse>(this.dataUrl);
   }
+
+  getNewsById(id: number): Observable<NewsItem> {
+    return this.getData().pipe(
+      map((response: { news: any[]; }) => response.news.find((newsItem: { id: number; }) => newsItem.id === id))
+    );
+  }
+
 }

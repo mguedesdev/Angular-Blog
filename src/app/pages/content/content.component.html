@@ -1,33 +1,19 @@
-<div class="container__content">
+<div class="container__content" *ngIf="newsDetail">
   <div class="content__cover">
-    <img src="assets/placeholder.webp" alt="">
+    <img [src]="newsDetail.picture" alt="{{ newsDetail.title }}">
   </div>
   <div class="content__title">
-    <h1>TITULO</h1>
+    <h1>{{ newsDetail.title }}</h1>
   </div>
   <div class="content__authorDate">
-    <span>Autor</span>
-    <span>Data</span>
+    <span>Author: {{ newsDetail.author }}</span>
+    <span>Date: {{ newsDetail.date }}</span>
   </div>
   <div class="content__description">
     <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque itaque animi fugiat quo at nam, tempora atque quam adipisci corrupti molestias, perspiciatis consequatur, assumenda excepturi quidem enim recusandae asperiores provident?
+      {{ newsDetail.description }}
     </p>
   </div>
+  <a [href]="newsDetail.video" target="_blank">Watch Video</a>
 
 </div>

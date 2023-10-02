@@ -12,6 +12,7 @@
   overflow: hidden;
   height: 125px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .small-card__picture > img {
@@ -28,6 +29,7 @@
 .small-card__title {
   padding: 0 5px;
   width: 100%;
+  cursor: pointer;
 }
 
 .small-card__title > h1 {

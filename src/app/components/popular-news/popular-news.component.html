@@ -1,0 +1,10 @@
+<div class="container__popular-news" *ngIf="filteredApprovalList.length">
+  <h1>POPULARES</h1>
+  <app-small-card *ngFor="let news of filteredApprovalList"
+   [cardPicture]="news.picture"
+   [cardTitle]="news.title"
+   [cardDate]="news.date"
+   [cardApproval]="news.approval"
+   [cardId]="news.id"
+  ></app-small-card>
+</div>

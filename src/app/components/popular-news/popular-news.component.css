@@ -1,0 +1,20 @@
+.container__popular-news {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.container__popular-news > h1 {
+  font-size: 20;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px 0;
+  margin-bottom: 15px;
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+:host {
+  width: 33%;
+}

@@ -1,5 +1,5 @@
 
-<div class="container__small-card">
+<div class="container__small-card" [routerLink]="['/content', cardId]">
   <div class="small-card__content">
     <div class="small-card__picture">
       <img *ngIf="cardPicture" [src]="cardPicture" alt="">

@@ -17,16 +17,7 @@
       <div *ngIf="isLoading" class="spinner">Carregando mais...</div>
     </div>
 
-    <div class="articles__others" >
-      <h1>POPULARES</h1>
-      <app-small-card *ngFor="let news of filteredApprovalList"
-       [cardPicture]="news.picture"
-       [cardTitle]="news.title"
-       [cardDate]="news.date"
-       [cardApproval]="news.approval"
-
-      ></app-small-card>
-    </div>
+    <app-popular-news></app-popular-news>
 
 
   </div>

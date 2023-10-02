@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContentComponent } from './pages/content/content.component';
+import { PopularNewsComponent } from './components/popular-news/popular-news.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ContentComponent } from './pages/content/content.component';
     SmallCardComponent,
     HomeComponent,
     FooterComponent,
-    ContentComponent
+    ContentComponent,
+    PopularNewsComponent
   ],
   imports: [
     BrowserModule,

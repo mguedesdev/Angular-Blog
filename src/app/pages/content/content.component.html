@@ -1,21 +1,23 @@
 <div class="container__content" *ngIf="newsDetail">
-  <div class="content__cover">
-    <img [src]="newsDetail.picture" alt="{{ newsDetail.title }}">
-  </div>
-  <div class="content__title">
-    <h1>{{ newsDetail.title }}</h1>
-  </div>
-  <div class="content__authorDate">
-    <span>Author: {{ newsDetail.author }}</span>
-    <span>Date: {{ newsDetail.date }}</span>
-  </div>
-  <div class="content__description">
-    <p>
-      {{ newsDetail.fullNews }}
-    </p>
-  </div>
-  <a [href]="newsDetail.video" target="_blank">Watch Video</a>
+  <div class="content_new">
+    <div class="content__cover">
+      <img [src]="newsDetail.picture" alt="{{ newsDetail.title }}">
+    </div>
+    <div class="content__title">
+      <h1>{{ newsDetail.title }}</h1>
+    </div>
+    <div class="content__authorDate">
+      <span>Author: {{ newsDetail.author }}</span>
+      <span>Date: {{ newsDetail.date }}</span>
+    </div>
+    <div class="content__description">
+      <p>
+        {{ newsDetail.fullNews }}
+      </p>
+    </div>
+    <iframe width="560" height="315" [src]="getSafeUrl(newsDetail.video)" frameborder="0" allowfullscreen></iframe>
 
+  </div>
 
-
+  <app-popular-news></app-popular-news>
 </div>

@@ -7,6 +7,7 @@ export interface NewsItem {
   picture: string;
   video: string;
   approval: number;
+  fullNews: string;
 
 }
 

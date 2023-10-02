@@ -8,7 +8,8 @@
       "description": "Quem é fã do clássico Aion sabe muito bem que a NCSoft já revelou que está trabalhando em um Aion 2. No entanto, desde o primeiro anúncio (feito há alguns anos), poucos detalhes sobre o projeto foram revelados. Daí, há poucos dias, alguns veículos da mídia especializada coreana trouxeram à tona informações que conseguiram empolgar, mas também deixaram os players...",
       "picture": "https://i.ytimg.com/vi/GmIoZDT8gtM/maxresdefault.jpg",
       "video": "https://www.youtube.com/watch?v=GmIoZDT8gtM",
-      "approval": 8.5
+      "approval": 8.5,
+      "fullNews": "Quem é fã do clássico Aion sabe muito bem que a NCSoft já revelou que está trabalhando em um Aion 2. No entanto, desde o primeiro anúncio (feito há alguns anos), poucos detalhes sobre o projeto foram revelados. Daí, há poucos dias, alguns veículos da mídia especializada coreana trouxeram à tona informações que conseguiram empolgar, mas também deixaram os players ansiosos. Conforme os rumores, a sequência promete trazer uma vasta expansão do mundo original, com ambientes mais detalhados e uma narrativa muito mais rica. No entanto, a maior surpresa pode ser a adição de um modo multiplayer expansivo, algo que os fãs têm pedido há anos. Mas nem tudo são boas notícias. Fontes internas sugerem que a NCSoft pode estar considerando uma abordagem de \"games-as-a-service\", o que pode significar microtransações e atualizações frequentes. Alguns jogadores expressaram preocupação de que isso possa diluir a qualidade da narrativa e da experiência de jogo, enquanto outros estão animados com as possibilidades de um Aion que evolui constantemente. A NCSoft ainda não fez um comentário oficial sobre os rumores, mas os fãs estão ansiosos por mais detalhes. Por enquanto, tudo o que podemos fazer é esperar e ver."
     },
     {
       "id": 2,
@@ -16,10 +17,10 @@
       "date": "26/09/2023",
       "title": "Inflexion Games apresenta mais detalhes sobre o curioso Nightingale e revela por que a estreia no regime Early Access foi adiada",
       "description": "Durante a Gamescom 2023, os devs da Inflexion Games apresentaram uma boa série de detalhes relacionados com o curioso Nightingale, mas acabaram deixando alguns players bem desapontados, com o anúncio de um adiamento. Isso mesmo! O game deveria estrear no regime Early Access ainda em 2023, mas os devs resolveram alterar os planos. Agora, a aventura só deverá ficar disponível...",
+      "fullNews": "Durante a aguardada apresentação da Inflexion Games na Gamescom 2023, o estúdio decidiu dar um vislumbre mais detalhado do que os jogadores podem esperar de Nightingale. Revelado como um RPG de ação com um mundo expansivo e um foco particular em narrativa e design de personagem, Nightingale rapidamente se tornou um dos jogos mais esperados do evento. Entretanto, o que deveria ser um momento de celebração virou desapontamento para muitos, quando foi anunciado que o lançamento no regime Early Access seria adiado. Ao que tudo indica, a decisão se deu por conta de alguns bugs críticos encontrados na última hora, além de um desejo da equipe de polir ainda mais a experiência, garantindo que o jogo atenda às altas expectativas. A nova data de lançamento prevista é para o primeiro trimestre de 2024. Apesar do atraso, muitos fãs expressaram seu apoio à decisão, citando que preferem esperar por uma experiência mais refinada do que enfrentar problemas técnicos em um lançamento prematuro. A Inflexion Games prometeu recompensar a paciência dos fãs com conteúdo adicional quando o jogo finalmente for lançado.",
       "picture": "https://wp.clutchpoints.com/wp-content/uploads/2022/08/Inflexion-Games-gives-update-on-Nightingale-development.jpg",
-      "video": "https://www.youtube.com/watch?v=GmIoZDT8gtM",
+      "video": "https://www.youtube.com/watch?v=_zjAZ2dmxr8",
       "approval": 6.5
-
     },
     {
       "id": 3,
@@ -27,21 +28,22 @@
       "date": "25/09/2023",
       "title": "Temtem recebe um grande update, com direito ao início de uma nova temporada e outras novidades muito interessantes",
       "description": "Ontem, 25 de setembro, os devs da Crema resolveram promover a estreia do Patch 1.5 do ótimo Temtem e deram alguns bons motivos para os players aumentarem a dedicação ao game. O update, que foi batizado como Endless Night, deu início a uma nova temporada de disputas e adicionou uma boa dose de novidades interessantes à experiência, com direito a criaturas míticas de...",
+      "fullNews": "O Patch 1.5 para Temtem, intitulado 'Endless Night', marcou um dos updates mais significativos para o jogo desde o seu lançamento. A nova temporada introduzida traz uma série de desafios e recompensas que prometem manter os tamers ocupados nas próximas semanas. Além disso, o patch apresenta novas áreas exploráveis, repletas de mistérios e novos Temtem para capturar. Os destaques são as criaturas míticas, que prometem ser um verdadeiro desafio até para os jogadores mais experientes. Junto com essas adições, várias melhorias de qualidade de vida foram implementadas, tornando a experiência de jogo ainda mais agradável. A equipe da Crema também tomou medidas para equilibrar certas mecânicas de jogo, baseando-se no feedback da comunidade. Muitos players celebraram a atualização, com as redes sociais sendo inundadas de histórias e experiências dentro deste novo conteúdo. A Crema confirmou que isso é apenas o começo, com mais atualizações planejadas para o futuro próximo, reforçando o compromisso do estúdio com sua comunidade dedicada.",
       "picture": "https://psxbrasil.com.br/wp-content/uploads/2021/04/Temtem.jpg",
-      "video": "https://www.youtube.com/watch?v=GmIoZDT8gtM",
+      "video": "https://www.youtube.com/watch?v=r2U3uEzCCxI",
       "approval": 9.0
-
-    },
+    }
+    ,
     {
       "id": 4,
       "author": "Your Name",
       "date": "24/09/2023",
       "title": "Amazon Games revela detalhes sobre a expedição Divisão Selvagem, que está a caminho do famigerado New World",
       "description": "No dia 03 de outubro, a Amazon Games vai promover a estreia da primeira expansão paga do famigerado New World e tudo indica que os players vão ter muitos motivos para conferir o material. Afinal, esse pacote de conteúdo vai adicionar muitas novidades à experiência, com destaque para as montarias e um novo capítulo para a história do título. E mais, os jogadores também...",
+      "fullNews": "No aguardado anúncio da Amazon Games, a empresa deu detalhes sobre a expedição 'Divisão Selvagem', a primeira grande expansão paga para o MMORPG, New World. Esta expansão mergulha os jogadores em territórios inexplorados, onde a natureza reina suprema, e novos desafios esperam em cada esquina. As montarias, um recurso muito solicitado pela comunidade, finalmente farão sua estreia. Desde cavalos majestosos até feras exóticas, os jogadores agora podem viajar pelo mundo com estilo e eficiência. O novo capítulo da história leva os aventureiros em uma missão para desvendar os segredos de uma antiga civilização que uma vez habitou o continente. Novas masmorras, chefes e equipamentos também foram introduzidos, proporcionando horas de novo conteúdo para explorar e conquistar. A resposta inicial da comunidade tem sido extremamente positiva, com muitos elogiando a Amazon Games por ouvir o feedback dos jogadores e implementar recursos desejados. A expansão 'Divisão Selvagem' promete ser uma adição valiosa ao New World, e muitos estão contando os dias até seu lançamento oficial.",
       "picture": "https://images.ctfassets.net/j95d1p8hsuun/2jfzG21kQR797l5HTqy2ur/fbae937be8b61af35341ec7a3792cd08/NW_ROTAE_KEY_WEB_740x416.jpg",
-      "video": "https://www.youtube.com/watch?v=GmIoZDT8gtM",
+      "video": "https://www.youtube.com/watch?v=J9wPDAb4Wnk",
       "approval": 7.5
-
     },
     {
       "id": 5,
@@ -49,8 +51,9 @@
       "date": "23/09/2023",
       "title": "Ubisoft anuncia nova expansão para Assassin's Creed Valhalla",
       "description": "Após o sucesso esmagador de Assassin's Creed Valhalla, a Ubisoft anunciou uma nova expansão que promete levar os jogadores a terras ainda não exploradas. A expansão, chamada 'Land of the Forgotten', mergulha nas lendas e mitos de civilizações perdidas. Mais detalhes serão revelados na próxima conferência da Ubisoft.",
+      "fullNews": "O universo de Assassin's Creed Valhalla está prestes a se expandir ainda mais. A Ubisoft surpreendeu os fãs com o anúncio de 'Land of the Forgotten', uma expansão que promete uma aventura épica em territórios desconhecidos. Os jogadores terão a oportunidade de se aprofundar nas histórias de civilizações que o tempo esqueceu, enfrentando novos inimigos, desvendando mistérios antigos e descobrindo tesouros escondidos. De acordo com fontes internas, a expansão terá uma duração significativa, potencialmente adicionando dezenas de horas à experiência principal. Além disso, novas mecânicas de gameplay e habilidades únicas estarão disponíveis, dando aos jogadores novas maneiras de abordar os desafios. A Ubisoft também prometeu melhorias visuais e técnicas para tornar o mundo ainda mais imersivo. A comunidade está repleta de especulações e teorias sobre quais civilizações serão abordadas nesta expansão. Por enquanto, tudo o que sabemos é que será uma jornada inesquecível. A data de lançamento ainda não foi confirmada, mas os fãs já estão marcando seus calendários para a próxima conferência da Ubisoft.",
       "picture": "https://meups.com.br/wp-content/uploads/2021/12/Dawn-of-Ragnarok-expansao-de-Assassins-Creed-Valhalla.jpg",
-      "video": "https://www.youtube.com/watch?v=example_link",
+      "video": "https://www.youtube.com/watch?v=UoigRzS3rws",
       "approval": 8.8
     },
     {
@@ -59,8 +62,9 @@
       "date": "22/09/2023",
       "title": "Riot Games planeja nova atualização para o League of Legends, focando em balanceamento",
       "description": "A Riot Games tem planos para lançar uma atualização massiva focada em balanceamento para o popular MOBA, League of Legends. Com os mundiais se aproximando, esta atualização pretende nivelar o campo de jogo e proporcionar partidas mais competitivas.",
+      "fullNews": "Em preparação para os emocionantes mundiais de League of Legends que se aproximam, a Riot Games divulgou mais detalhes sobre sua próxima atualização, que pretende trazer uma série de mudanças de balanceamento ao jogo. A empresa afirma que sua principal meta é garantir que nenhuma campeão seja 'obrigatório' ou 'proibido' nas partidas profissionais, dando aos times mais liberdade estratégica na seleção de campeões. Além disso, a atualização também focará em ajustar itens que estão muito fortes ou fracos. A comunidade de jogadores tem especulado sobre quais campeões verão mudanças significativas, e muitos estão esperando ajustes em campeões que dominaram a cena competitiva nas últimas temporadas. A Riot também planeja introduzir pequenas mudanças de qualidade de vida para tornar o jogo mais agradável para todos os níveis de habilidade. A empresa reconhece a importância dos feedbacks da comunidade e prometeu estar atenta às respostas dos jogadores após o lançamento da atualização. A data exata do lançamento ainda não foi divulgada, mas a expectativa é que chegue às máquinas dos jogadores nas próximas semanas.",
       "picture": "https://midiatico.portalpopmais.com.br/wp-content/uploads/2021/04/league-of-legends.png",
-      "video": "https://www.youtube.com/watch?v=example_link",
+      "video": "https://www.youtube.com/watch?v=Nrec7qkGmoc",
       "approval": 8.0
     },
     {
@@ -69,8 +73,9 @@
       "date": "21/09/2023",
       "title": "Cyberpunk 2077 receberá DLC gratuito com novos enredos e personagens",
       "description": "A CD Projekt Red anunciou que estará lançando um DLC gratuito para Cyberpunk 2077 no próximo mês. Este DLC apresentará novos enredos, personagens e missões secundárias, dando aos jogadores ainda mais conteúdo para explorar na cidade futurista de Night City.",
+      "fullNews": "Em uma jogada surpresa e emocionante, a CD Projekt Red revelou os detalhes de um novo DLC gratuito que está a caminho de Cyberpunk 2077. Este novo conteúdo expandirá a já vasta narrativa do jogo, introduzindo novos personagens intrigantes e histórias paralelas que se entrelaçam com a principal aventura em Night City. Além das novas missões de história, os jogadores podem esperar uma variedade de missões secundárias que ampliam ainda mais a experiência de jogo e aprofundam o lore do mundo. Uma das características mais esperadas deste DLC é a introdução de novos cyberwares e modificações de personagem, permitindo aos jogadores personalizar V de maneiras anteriormente inimagináveis. A equipe da CD Projekt Red afirmou que ouviu o feedback da comunidade e trabalhou arduamente para garantir que este DLC atenda às expectativas dos fãs. Eles também enfatizaram que esta é apenas uma das muitas atualizações planejadas para o futuro de Cyberpunk 2077, sinalizando um compromisso contínuo com a melhoria e expansão do jogo. A data exata do lançamento do DLC ainda não foi revelada, mas com a antecipação aumentando, os fãs estão ansiosamente aguardando para mergulhar de volta nas ruas sombrias de Night City.",
       "picture": "https://flowgames.gg/wp-content/uploads/2023/06/EGS_Cyberpunk2077PhantomLiberty_CDPROJEKTRED_DLC_S1_2560x1440-15e79640f240b1652ad72c0ff72b2b17.jpg",
-      "video": "https://www.youtube.com/watch?v=example_link",
+      "video": "https://www.youtube.com/watch?v=reABCMNGM3w",
       "approval": 9.2
     }
   ]

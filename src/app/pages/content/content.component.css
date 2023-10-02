@@ -5,7 +5,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .content__cover {
@@ -18,4 +17,11 @@
   min-width: 400px;
   object-fit: cover;
   height: 100%;
+}
+
+.content__title > h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0;
+  text-align: center;
 }

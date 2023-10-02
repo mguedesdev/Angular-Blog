@@ -1,5 +1,4 @@
 
-
 .container__articles {
   display: flex;
   justify-content:space-between;
@@ -29,7 +28,6 @@
 }
 
 .content {
-  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
 

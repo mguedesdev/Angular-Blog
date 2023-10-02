@@ -5,13 +5,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #ccc;
 
 }
 
 .content__cover {
   width: 100%;
-  border: 1px solid #ccc;
   height: 400px;
 }
 

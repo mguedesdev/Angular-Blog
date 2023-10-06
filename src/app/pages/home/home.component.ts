@@ -1,6 +1,7 @@
 import { DataService } from 'src/app/services/data.service';
 import { Component, OnInit, HostListener } from '@angular/core';
 import { NewsItem } from 'src/app/interfaces/news.interface';
+import { NewsSortService } from 'src/app/services/news-sort.service';
 
 
 @Component({
@@ -21,7 +22,8 @@ export class HomeComponent implements OnInit {
   filteredDateList: NewsItem[] = [];
 
 
-  constructor(private dataService: DataService) { }
+  constructor(private dataService: DataService, private newsSortService: NewsSortService) { }
+
 
   ngOnInit(): void {
     this.dataService.getData().subscribe((response) => {
@@ -33,17 +35,13 @@ export class HomeComponent implements OnInit {
   }
 
   sortByApprovalDesc() {
-    this.filteredApprovalList = [...this.newsList].sort((a, b) => b.approval - a.approval);
+    this.filteredApprovalList = this.newsSortService.sortByApprovalDesc(this.newsList);
   }
+
 
   sortByDateDesc() {
-    this.filteredDateList = [...this.newsList].sort((a, b) => {
-      const dateA = new Date(a.date.split('/').reverse().join('-')).getTime();
-      const dateB = new Date(b.date.split('/').reverse().join('-')).getTime();
-      return dateB - dateA;
-    });
+    this.filteredDateList = this.newsSortService.sortByDateDesc(this.newsList);
   }
-
 
   loadMoreNews() {
     const currentLength = this.displayedNews.length;

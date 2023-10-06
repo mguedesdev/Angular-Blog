@@ -1,6 +1,6 @@
 <div class="container__popular-news" *ngIf="filteredApprovalList.length">
   <h1>POPULARES</h1>
-  <app-small-card *ngFor="let news of filteredApprovalList"
+  <app-small-card *ngFor="let news of filteredApprovalList | slice:0:5"
    [cardPicture]="news.picture"
    [cardTitle]="news.title"
    [cardDate]="news.date"

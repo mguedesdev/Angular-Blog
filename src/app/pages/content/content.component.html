@@ -7,15 +7,14 @@
       <h1>{{ newsDetail.title }}</h1>
     </div>
     <div class="content__authorDate">
-      <span>Author: {{ newsDetail.author }}</span>
-      <span>Date: {{ newsDetail.date }}</span>
+      <span>Por {{ newsDetail.author }} -  {{ newsDetail.date }}</span>
     </div>
     <div class="content__description">
       <p>
         {{ newsDetail.fullNews }}
       </p>
     </div>
-    <iframe width="560" height="315" [src]="getSafeUrl(newsDetail.video)" frameborder="0" allowfullscreen></iframe>
+    <iframe  [src]="getSafeUrl(newsDetail.video)" frameborder="0" allowfullscreen></iframe>
 
   </div>
 

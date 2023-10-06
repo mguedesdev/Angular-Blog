@@ -14,7 +14,14 @@
         ></app-big-card>
       </div>
 
-      <div *ngIf="isLoading" class="spinner">Carregando mais...</div>
+      <div *ngIf="isLoading" class="spinner">
+        <div class="loader">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      </div>
     </div>
 
     <app-popular-news></app-popular-news>
